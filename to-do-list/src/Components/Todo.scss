@@ -1,0 +1,19 @@
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .todo {
+    justify-content: center;
+
+    flex-direction: column;
+    text-align: center;
+  }
+}

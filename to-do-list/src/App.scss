@@ -1,0 +1,82 @@
+body {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  background-color: #100940;
+
+  .app {
+    max-width: 600px;
+    margin: 0 auto 300px;
+    background-color: #efefef;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px 0;
+    }
+
+    input {
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #333974;
+      color: #fff;
+      padding: 5px 10px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #100940;
+      }
+    }
+
+    .complete {
+      background-color: #5cb85c;
+      &:hover {
+        background-color: #006244;
+      }
+    }
+
+    .todo-list {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #555;
+    }
+
+    .remove {
+      background-color: #d65762;
+
+      &:hover {
+        background-color: #dc2d12;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
